@@ -1,0 +1,42 @@
+:root{
+    /*font-family: -apple-system,sans-serif;*/
+    font-family: "Arial";
+    box-sizing: border-box;
+    --light-green: #EEFCCE;
+    --dark-green: #9EB25D;
+    --mustard: #F1DB4B;
+    --neon-green: #EDFF71;
+    --teal-blue: #A7C6DA;
+    background-color: #f9f9f9;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: tomato;
+}
+nav{
+    color: white;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+    flex-grow: 1;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+.links{
+    flex-grow: 4;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    font-weight: bold;
+}
